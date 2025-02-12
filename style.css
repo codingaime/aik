@@ -16,10 +16,6 @@
 
 body {
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
-    background-image: url('/images/bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     color: var(--text);
     line-height: 1.6;
     min-height: 100vh;
