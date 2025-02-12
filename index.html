@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에이크 | AI 개발 강사</title>
+    
+    <!-- 파비콘 설정 -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <meta name="theme-color" content="#9747FF">
+    
+    <!-- 안드로이드 크롬 -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/images/favicon/android-chrome-512x512.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- Phosphor Icons 추가 -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- 프로필 섹션 -->
+    <main class="container">
+        <section class="profile">
+            <img src="images/profile.jpg" alt="에이크 프로필" class="profile-image">
+            <h1>에이크</h1>
+            <p class="title">AI 개발 강사</p>
+            <p class="bio">20년차 서비스 기획자가 AI로 개발을 시작했습니다<br>
+            3개월 만에 3개의 서비스를 런칭한 경험을 나눕니다</p>
+        </section>
+
+        <!-- 핵심 수치 -->
+        <section class="stats">
+            <div class="stat-item">
+                <i class="ph ph-calendar"></i>
+                <strong>20년</strong>
+                <span>경력</span>
+            </div>
+            <div class="stat-item">
+                <i class="ph ph-rocket-launch"></i>
+                <strong>3개</strong>
+                <span>런칭 서비스</span>
+            </div>
+            <div class="stat-item">
+                <i class="ph ph-timer"></i>
+                <strong>3개월</strong>
+                <span>도전 기간</span>
+            </div>
+        </section>
+
+        <!-- 링크 버튼 -->
+        <section class="links">
+            <a href="https://www.codingai.me/vod" class="link-button" target="_blank">
+                <i class="ph ph-graduation-cap"></i>
+                <span>AI 개발 강의 신청하기</span>
+            </a>
+            <div class="link-button dropdown">
+                <i class="ph ph-devices"></i>
+                <span>런칭한 서비스 구경하기</span>
+                <div class="dropdown-content">
+                    <a href="https://www.produce-ai.com/dashboard" target="_blank">Produce AI</a>
+                    <a href="https://www.sumtaai.com" target="_blank">썸타 AI</a>
+                    <a href="https://www.mailmailai.com" target="_blank">메일메일 AI</a>
+                    <a href="https://www.codingai.me" target="_blank">코딩 AI</a>
+                </div>
+            </div>
+            <a href="https://www.codingai.me/blog/1051acfa-99a4-4bfa-bd6b-adc5d743498b" class="link-button" target="_blank">
+                <i class="ph ph-article"></i>
+                <span>기획자의 AI 개발 이야기</span>
+            </a>
+            <a href="https://www.codingai.me/services/coaching" class="link-button" target="_blank">
+                <i class="ph ph-chats-circle"></i>
+                <span>1:1 멘토링 신청</span>
+            </a>
+        </section>
+
+        <!-- 소셜 미디어 -->
+        <section class="social">
+            <a href="https://www.youtube.com/@codingaiai" class="social-icon" target="_blank">
+                <i class="ph ph-youtube-logo"></i>
+            </a>
+            <a href="https://www.instagram.com/figmaplan" class="social-icon" target="_blank">
+                <i class="ph ph-instagram-logo"></i>
+            </a>
+            <a href="https://www.codingai.me/blog" class="social-icon" target="_blank">
+                <i class="ph ph-notebook"></i>
+            </a>
+        </section>
+
+        <!-- 우측 상단 공유 버튼 수정 -->
+        <button id="shareButton" class="share-button" onclick="copyToClipboard()">
+            <i class="ph ph-link"></i>
+        </button>
+
+        <footer>
+            <p>&copy; 2025 에이크. All rights reserved.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 
